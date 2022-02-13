@@ -21,8 +21,6 @@ public class People {
         return age;
     }
 
-
-
     @Override
     public String toString() {
         return "age=" + age;

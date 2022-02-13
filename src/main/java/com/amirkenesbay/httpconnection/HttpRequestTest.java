@@ -1,7 +1,6 @@
 package com.amirkenesbay.httpconnection;
 
 import com.amirkenesbay.files.FileParser;
-import com.amirkenesbay.files.FileTest;
 
 import java.io.BufferedReader;
 import java.io.IOException;
