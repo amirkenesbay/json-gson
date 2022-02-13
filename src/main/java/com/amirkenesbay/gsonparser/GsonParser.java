@@ -1,14 +1,10 @@
 package com.amirkenesbay.gsonparser;
 
-import com.amirkenesbay.model.People;
 import com.amirkenesbay.model.Root;
 import com.google.gson.Gson;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
 
 import java.io.FileReader;
-import java.util.ArrayList;
-import java.util.List;
+
 
 public class GsonParser {
     public Root parse() {

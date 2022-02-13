@@ -1,0 +1,9 @@
+{
+  "name": "SiAm",
+  "breed": "Siamese",
+  "email": "siam.cat@gmail.com",
+  "catlives": 9,
+  "phone": 2129991234,
+  "city": "NewCatadonia",
+  "likesMice": true
+}

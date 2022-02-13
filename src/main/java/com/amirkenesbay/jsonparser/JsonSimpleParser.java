@@ -35,7 +35,8 @@ public class JsonSimpleParser {
                 String namePeople = (String) peopleJsonObject.get(TAG_NAME);
                 long age = (Long) peopleJsonObject.get(TAG_AGE);
 
-                People people = new People(namePeople, (int) age);
+//                People people = new People(namePeople, (int) age);
+                People people = new People((int) age);
                 peopleList.add(people);
             }
 

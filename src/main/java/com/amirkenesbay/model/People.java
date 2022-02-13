@@ -4,8 +4,12 @@ public class People {
     private String name;
     private int age;
 
-    public People(String name, int age) {
-        this.name = name;
+//    public People(String name, int age) {
+//        this.name = name;
+//        this.age = age;
+//    }
+
+    public People(int age) {
         this.age = age;
     }
 
@@ -17,11 +21,10 @@ public class People {
         return age;
     }
 
+
+
     @Override
     public String toString() {
-        return "Root{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                '}';
+        return "age=" + age;
     }
 }

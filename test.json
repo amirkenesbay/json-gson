@@ -1,6 +1,6 @@
 {
   "name": "Test file",
-  "people_list": [
+  "people": [
     {
       "name": "Amir",
       "age": 22
